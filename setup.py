@@ -51,7 +51,7 @@ setup(
 	include_package_data=True,
 	install_requires=install_requires,
 	dependency_links=[
-		'https://github.com/frappe/python-pdfkit.git#egg=pdfkit'
+		'https://github.com/wtwong316/python-pdfkit.git#egg=pdfkit'
 	],
 	cmdclass = \
 	{
