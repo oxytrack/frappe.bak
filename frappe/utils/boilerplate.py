@@ -72,7 +72,7 @@ def make_boilerplate(dest, app_name):
 		f.write(frappe.as_unicode(gitignore_template.format(app_name = hooks.app_name)))
 
 	with open(os.path.join(dest, hooks.app_name, "requirements.txt"), "w") as f:
-		f.write("# frappe -- https://github.com/frappe/frappe is installed via 'bench init'")
+		f.write("# frappe -- https://github.com/oxytrack/frappe is installed via 'bench init'")
 
 	with open(os.path.join(dest, hooks.app_name, "README.md"), "w") as f:
 		f.write(frappe.as_unicode("## {0}\n\n{1}\n\n#### License\n\n{2}".format(hooks.app_title,

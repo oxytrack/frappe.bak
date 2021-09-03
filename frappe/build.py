@@ -79,7 +79,7 @@ def get_assets_link(frappe_head):
 
 	if tag:
 		# if tag exists, download assets from github release
-		url = "https://github.com/frappe/frappe/releases/download/{0}/assets.tar.gz".format(tag)
+		url = "https://github.com/oxytrack/frappe/releases/download/{0}/assets.tar.gz".format(tag)
 	else:
 		url = "http://assets.frappeframework.com/{0}.tar.gz".format(frappe_head)
 
