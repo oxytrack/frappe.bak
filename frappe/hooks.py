@@ -8,7 +8,7 @@ app_publisher = "Frappe Technologies"
 app_description = "Full stack web framework with Python, Javascript, MariaDB, Redis, Node"
 app_icon = "octicon octicon-circuit-board"
 app_color = "orange"
-source_link = "https://github.com/wtwong316/frappe"
+source_link = "https://github.com/oxytrack/frappe"
 app_license = "MIT"
 app_logo_url = '/assets/frappe/images/frappe-framework-logo.svg'
 

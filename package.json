@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wtwong316/frappe.git"
+    "url": "git+https://github.com/oxytrack/frappe.git"
   },
   "author": "Frappe Technologies Pvt. Ltd.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wtwong316/frappe/issues"
+    "url": "https://github.com/oxytrack/frappe/issues"
   },
   "engines": {
     "node": ">=14"
